@@ -1,0 +1,23 @@
+.Hiscart{
+    background-color: rgb(225, 230, 236);
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Hiscart ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between; /* Cách đều các mục */
+}
+
+.Hiscart ul li:hover {
+    color: red;
+    cursor: pointer;
+}
+.Hiscart li.selected {
+    color: red; /* Màu chữ đỏ cho mục được chọn */
+    border-bottom: 2px solid red; /* Gạch chân đỏ */
+    height: 30px;
+  }
